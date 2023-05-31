@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.app-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  height: 100vh;
+  background-size: cover;
+  padding-top: 40px;
+  padding-left: 50px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+.main-heading {
+  font-size: 30px;
+  color: #1e293b;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.timer-background {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+.timer-container {
+  display: flex;
+}
+.timer {
+  background-color: #0f172a;
+  height: 100px;
+  width: 100px;
+  border-radius: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.time {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.timer-status {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
